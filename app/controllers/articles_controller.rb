@@ -8,7 +8,7 @@ class ArticlesController < ApplicationController
     end
 
     def nwe
-
+        @article = Article.new
     end
-    
+
 end
