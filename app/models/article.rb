@@ -19,7 +19,6 @@ class Article < ApplicationRecord
 
     validate :validate_title_and_content_length
 
-
     def display_created_at
         I18n.l(self.created_at, format: :default)
     end
@@ -31,6 +30,5 @@ private
         errors.add(:content, '100文字以上で！')
     end
 end
-
 
 end
