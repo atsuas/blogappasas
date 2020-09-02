@@ -349,6 +349,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
+  redis
   rubocop
   rubocop-rails
   sass-rails (>= 6)
